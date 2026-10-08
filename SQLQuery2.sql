@@ -17,6 +17,5 @@ VALUES ('Cine', 75.00, 'Entretenimiento');
 INSERT INTO Gastos (Descripcion, Monto, Categoria)
 VALUES ('Café', 12.00, 'Comida');
 
-DELETE FROM Gastos;
-
 SELECT * FROM Gastos;
+DELETE FROM Gastos;

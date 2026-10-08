@@ -6,10 +6,11 @@ namespace RegistroGasto
     public class Program
     {
         private const string CadenaConexion =
-      @"Server=(localdb)\MSSQLLocalDB;" +
-      @"Database=GastosDBPrueba;" +
-      @"Trusted_Connection=True;" +
-      @"TrustServerCertificate=True;";
+            @"Server=(localdb)\MSSQLLocalDB;" +
+            @"Database=GastosDB;" +
+            @"Trusted_Connection=True;" +
+            @"TrustServerCertificate=True;";
+
         public static void Main(string[] args)
         {
             List<Gasto> gastos = Cargar();
