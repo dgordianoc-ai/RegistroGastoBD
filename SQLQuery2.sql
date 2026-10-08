@@ -1,4 +1,8 @@
-﻿CREATE TABLE Gastos (
+﻿CREATE DATABASE GastosDB;
+
+USE GastosDB;
+
+CREATE TABLE Gastos (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Descripcion NVARCHAR(100) NOT NULL,
     Monto DECIMAL(10,2) NOT NULL,
@@ -13,9 +17,3 @@ VALUES ('Gasolina', 250.00, 'Transporte');
 
 INSERT INTO Gastos (Descripcion, Monto, Categoria)
 VALUES ('Cine', 75.00, 'Entretenimiento');
-
-INSERT INTO Gastos (Descripcion, Monto, Categoria)
-VALUES ('Café', 12.00, 'Comida');
-
-SELECT * FROM Gastos;
-DELETE FROM Gastos;
