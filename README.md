@@ -13,7 +13,7 @@ Programa de consola desarrollado en C# para consultar y mostrar gastos almacenad
 - Realizar diferentes escenarios de prueba.
 - Comprobar el comportamiento cuando la base de datos no existe.
 
-### Escenario 4
+### Escenario 4: SqlException
 
 Se cambió temporalmente la cadena de conexión para utilizar una base de datos que no existía:
 
